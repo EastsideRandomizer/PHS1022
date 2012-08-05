@@ -1,0 +1,11 @@
+\documentclass[12pt]{article}
+\begin{document}
+\section{Moment of Inertia}
+The equation:
+\begin{math}
+dm = \frac{M}{L} dx
+\end{math}
+is assumed to be of an object of uniform density \\
+It is expected that one can experimentally and theoretically tell how to determine centre of mass on the exam.
+ 
+\end {document}
