@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\begin{document}
+\section{Question 1}
+An object which is treated as point mass rotating in a circle. \\
+The object is connected to the axis of rotation by a rope. \\
+Initally it is 0.22m long and the object is rotating at $0.55 \ rads^{-1}$ \\
+The rope is \textbf{shortened} to 0.15m and we are required to find the final angular speed.\\
+
+First some variables are declared: \\ 
+\begin{list*}
+$v_i =$ Inital linear speed of the object $=unknown$ \\
+$\omega_i =$  Unital angular speed of the object. $= 0.55 \ rads^{-1} $ \\
+$r_i =$ Unital length of the rope. $= 0.22m $ \\
+$v_f =$ Final linear speed of the object $= unknown$ \\
+$\omega_f =$  Final angular speed of the object. $ = unknown$\\
+$r_f =$ Final length of the rope. $ = 0.15m$
+\end{list}
+\begin{itemize}
+\item We start with finding the inital linear speed of the ball: \\
+The inital linear speed can be found by using $v_i=\omega_ir_i$. \\
+The values of $\omega_i$ and $r_i$ are substitued in and $v_i = 0.121 \ ms^{-1}$
+\item As no net torque acts on the system, angular momentum is conserved. Hence the formulae $mr_iv_isin\beta=mr_fv_fsin\beta$ can be used to find the final linear velocity and hence angular speed) of the object: \\
+\begin{displaymath}
+mr_iv_isin\beta&=mr_fv_fsin\beta \\
+\end{displaymath}
+For a circular orbit $sin\beta=1$ and mass cancels out: \\
+\begin{displaymath}
+r_iv_i=r_fv_f \\
+\end{displaymath}
+But $v_f=\omega_fr_f$: \\
+\begin{displaymath}
+r_iv_i=r_f^2\omega_f \\
+\end{displaymath}
+Hence:
+\begin{displaymath}
+\omega_f &= \frac{r_iv_i}{r_f^2}=\frac{0.22\times0.121}{0.15^2}=1.18 \ rads^{-1}
+\end{displaymath}
+\textbf{Q.E.D}
+\end{list*}
+\pagebreak
+\section{Question 2}
+\begin{equation}
+\tilde{a}=2i+3j+6k \\
+\end{equation}
+\begin{equation}
+\tilde{b}=3i+5j+7k \\
+\end{equation}
+\begin{equation}
+\tilde{c}=4i+2j+k \\
+\end{equation}
+\begin{equation}
+\tilde{a}\times\tilde{b}=\[ \left| \begin{array}{ccc}
+i & j & k \\
+2 & 3 & 6 \\
+3 & 5 & 7 \end{array} \right|\] 
+\end{equation}
+
+\end{document}
+

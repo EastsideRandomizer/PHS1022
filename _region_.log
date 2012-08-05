@@ -1,0 +1,90 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.8.1)  5 AUG 2012 14:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\A
+tBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graph
+ics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input _region_.tex
+(./_region_.tex  !name(assignment1_.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen103
+)
+(/usr/share/texmf/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count87
+\hfuzz=\dimen104
+(/usr/share/texmf/tex/latex/preview/prauctex.cfg))
+(/usr/share/texmf/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count88
+\pr@box=\box26
+\pr@output=\toks14
+
+Preview: Fontsize 12pt
+)  !name(assignment1_.tex) !offset(18) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.5 $
+     mr_iv_isin\beta=mr_fv_fsin\beta$
+Not a real error.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(546132+219909x8109506).
+<-><->
+      
+l.5 $mr_iv_isin\beta=mr_fv_fsin\beta$
+                                     
+Not a real error.
+
+[1]  !name(assignment1_.tex) !offset(23)  ) 
+Here is how much of TeX's memory you used:
+ 388 strings out of 495060
+ 4545 string characters out of 3182054
+ 50677 words of memory out of 3000000
+ 3637 multiletter control sequences out of 15000+200000
+ 6376 words of font info for 23 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 22i,2n,22p,376b,94s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on _region_.dvi (1 page, 1744 bytes).
