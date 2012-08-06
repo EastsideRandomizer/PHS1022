@@ -1,0 +1,6 @@
+\documentclass[12pt]{document}
+\begin{document}
+\section{Electric Field}
+\begin{displaymath}
+E=\frac{kQ}{r^2}\vec{r}
+\end{displaymath}
