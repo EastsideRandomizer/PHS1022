@@ -69,6 +69,7 @@ We start with LHS: \\
 \begin{equation}
 \tilde{c}=4i+2j+k \\
 \end{equation}
+\begin{equation}
 
 
 \pagebreak
@@ -110,7 +111,7 @@ v_b=\frac{r_av_a}{r_b}=\frac{6000\times8000}{24000}=2000ms^{-1}
 \item The sphere which takes longer to roll between two point is the hollow sphere.
 \end{itemize}
 
-\section{Question 7}
+\section{Question 6}
 Each $Na^+$ and $Cl^{-}$ ion has either positive charge or negative charge of 1, meaning they both have
 $1.602\times10^{-19}$ Coulombs of charge. \\ 
 Internucleus distance D is $2.82 \times 10^{10}$m. \\
@@ -120,7 +121,7 @@ The magnitude of the electric force of attraction is simply:
 \end{displaymath}
 Throw the numbers in:
 \begin{displaymath}
-|F_{attraction}|=\frac{9.0 \times 10^9 \times(1.6 \times 10^{-19})^2 }{(2.82 \times 10^{-10})^2}=2.90\times 10^{-9} \ N
+|F_{attraction}|=\frac{9.0 \times 10^9 \times(1.6 \times 10^{-19})^2 }{{2.82 \times 10^{-10})^2}
 \end{displaymath}
-\end{itemize}
+
 \end{document}
