@@ -1,4 +1,7 @@
+
 \documentclass[12pt]{article}
+\usepackage{amsmath}
+
 \begin{document}
 \section{Question 1}
 An object which is treated as point mass rotating in a circle. \\
@@ -60,6 +63,10 @@ We start with LHS: \\
 \vec{a} \times \vec{b}=(bf-ce)i+(cd-af)j+(ae-bd)k
 \end{displaymath}
 
+\begin{displaymath}
+(\vec{a} \times \vec{b}) \vec {c} =(bf-ce)i+(cd-af)j+(ae-bd)k 
+\end{displaymath}
+
 \begin{equation}
 \tilde{a}=2i+3j+6k \\
 \end{equation}
@@ -110,6 +117,20 @@ v_b=\frac{r_av_a}{r_b}=\frac{6000\times8000}{24000}=2000ms^{-1}
 \item The sphere which takes longer to roll between two point is the hollow sphere.
 \end{itemize}
 
+\section{Question 5}
+As:
+\begin{displaymath}
+1 e^{-} = 1.602 \times 10^{-19} C
+\end{displaymath}
+Therefore:
+\begin{displaymath}
+1 C = \frac{1}{1.602 \times 10^{-19} \frac{C}{e^{-}}}= 6.24 \times 10^{18} electrons
+\end{displaymath}
+One simply(which is an understatement in its own right) has to remove $6.24 \times 10^{18}$ electrons to give a blade of grass 1 Coulomb of charge. 
+
+\pagebreak
+\section{Question 8}
+\pagebreak
 \section{Question 7}
 Each $Na^+$ and $Cl^{-}$ ion has either positive charge or negative charge of 1, meaning they both have
 $1.602\times10^{-19}$ Coulombs of charge. \\ 
@@ -120,7 +141,36 @@ The magnitude of the electric force of attraction is simply:
 \end{displaymath}
 Throw the numbers in:
 \begin{displaymath}
-|F_{attraction}|=\frac{9.0 \times 10^9 \times(1.6 \times 10^{-19})^2 }{(2.82 \times 10^{-10})^2}=2.90\times 10^{-9} \ N
+|F_{attraction}|=\frac{9.0 \times 10^9 \times(1.6 \times 10^{-19})^2 }{(2.82 \times 10^{-10})^2}=2.90\times 10^{-9} \ N 
 \end{displaymath}
+
+\pagebreak
+\section{Question 8}
+\subsection{Part A}
+We are given the function which describes the strength of magnetic field along the z-axis:
+\begin{displaymath}
+E(z)=\frac{Q}{4 \pi \varepsilon_0}\frac{z}{(z^2+R^2)^{\frac{3}{2}}}
+\end{displaymath}
+\item We are told to derive the formulae for the z-coordinate where the electrical field is at a maximum.
+\item The term ``maximum'' means differentiation is our friend here:
+\setcounter{equation}{0}
+\begin{align*}
+E'(z)&=\frac{Q}{4 \pi \varepsilon_0} \frac{ d \left(\frac{z}{(z^2+R^2)^{\frac{3}{2}}} \right) }{dz} \\
+&=\frac{Q}{4 \pi \varepsilon_0} \left(z \times  \frac{d(z^2+R^2)^{-\frac{3}{2}}}{dz} + \frac{dz}{dz} \times (z^2+R^2)^{-\frac{3}{2}}\right) \\
+&=\frac{Q}{4 \pi \varepsilon_0} \left(- 3 z^2 \times (z^2+R^2)^{-\frac{5}{2}} + (z^2+R^2)^{-\frac{3}{2}}\right)
+\end{align*}
+
+\item Because we are trying to find maximum let $E'(z)=0$:
+\begin{align*}
+0&=\frac{Q}{4 \pi \varepsilon_0} \left(- 3 z^2 \times (z^2+R^2)^{-\frac{5}{2}} + (z^2+R^2)^{-\frac{3}{2}}\right) \\
+&=- 3 z^2 \times (z^2+R^2)^{-\frac{5}{2}} + (z^2+R^2)^{-\frac{3}{2}} \\
+3 z^2 \times (z^2+R^2)^{-\frac{5}{2}} &= (z^2+R^2)^{-\frac{3}{2}} \\
+\frac{3 z^2}{ z^2+R^2} &= 1 \\
+z^2 &= \frac{R^2}{2} \\
+z^2 &= \pm\frac{R}{\sqrt{2}} \ But \ z= \frac{R}{\sqrt{2}} \ as \ z > 0
+\end{align*}
+\item The formula for the location of maximum electric field $z= \frac{R}{\sqrt{2}}$.
+\pagebreak
+\subsection{Part B}
 \end{itemize}
 \end{document}
