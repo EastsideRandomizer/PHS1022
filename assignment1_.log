@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.8.9)  12 AUG 2012 00:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.8.9)  12 AUG 2012 02:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -157,7 +157,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-[3] [4] [5] [6] [7] (./assignment1_.aux) ) 
+[3] [4] [5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+[9] (./assignment1_.aux) ) 
 Here is how much of TeX's memory you used:
  847 strings out of 495060
  9525 string characters out of 3182054
@@ -165,6 +240,6 @@ Here is how much of TeX's memory you used:
  4085 multiletter control sequences out of 15000+200000
  8568 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,12n,20p,256b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,20p,256b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on assignment1_.dvi (7 pages, 11816 bytes).
+Output written on assignment1_.dvi (9 pages, 15876 bytes).
