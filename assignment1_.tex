@@ -1,5 +1,5 @@
 
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \usepackage{amsmath}
 
 \begin{document}
@@ -38,35 +38,102 @@ Hence:
 \omega_f = \frac{r_iv_i}{r_f^2}=\frac{0.22\times0.121}{0.15^2}=1.18 \ rads^{-1}
 \end{displaymath}
 \textbf{Q.E.D}
-
+\end{itemize}
 \pagebreak
 \section{Question 2}
+We are told to show that $ (\vec{a} \times \vec{b}) \times \vec{c}$ \textbf{does not always equal to} $\vec{a} \times (\vec{b} \times \vec{c})$ \\ 
 In question 2 we assume $\vec{a},\vec{b},\vec{c}$ are vectors of non-zero length. \\
 Put: \\
 \begin{equation}
-\vec{a}=ai+bj+ck\\
+\vec{a}=a_xi+a_yj+a_zk\\
 \end{equation}
 \begin{equation}
-\vec{b}=di+ej+fk\\
+\vec{b}=b_xi+b_yj+b_zk\\
 \end{equation}
 \begin{equation}
-\vec{c}=xi+yj+zk\\
+\vec{c}=c_xi+c_yj+c_zk\\
 \end{equation}
-We start with LHS: \\
-\begin{displaymath}
-(\vec{a} \times \vec{b}) \times \vec{c}
-\end{displaymath}
-\begin{displaymath}
-\vec{a} \times \vec{b}=(bf-ce)i-(af-cd)j+(ae-bd)k
-\end{displaymath}
-\begin{displaymath}
-\vec{a} \times \vec{b}=(bf-ce)i+(cd-af)j+(ae-bd)k
-\end{displaymath}
+We start with $(\vec{a} \times \vec{b}) \times \vec{c}$ :
+\begin{align*}
+\vec{a} \times \vec{b}&=(a_yb_z-a_zb_y)i-(a_xb_z-a_zb_x)j+(a_xb_y-a_yb_x)k \\
+&=(a_yb_z-a_zb_y)i+(a_zb_x-a_xb_z)j+(a_xb_y-a_yb_x)k
+\end{align*}
 
-\begin{displaymath}
-(\vec{a} \times \vec{b}) \vec {c} =(bf-ce)i+(cd-af)j+(ae-bd)k 
-\end{displaymath}
+Hence:
+\begin{align*}
+\left( \vec{a} \times \vec{b} \right) \times \vec {c} &=
+\begin{vmatrix}
+  \vec{i} & \vec{j}& \vec{k}\\
+  a_yb_z-a_zb_y & a_zb_x-a_xb_z & a_xb_y-a_yb_x \\
+  c_x &c_y &c_z \\
+\end{vmatrix} \\
+&=[(a_zb_x-a_xb_z)c_z-(a_xb_y-a_yb_x)c_y]\vec{i} \\
+&-[(a_yb_z-a_zb_y)c_z-(a_xb_y-a_yb_x)c_x]\vec{j} \\ 
+&+ [(a_yb_z-a_zb_y)c_y-(a_zb_x-a_xb_z)c_x]\vec{j} \\ 
+&\text{Break this seemingly long vector down to i, j and k components} \\
+&\text{We only look at the i component:} \\
+&i=[(a_zb_x-a_xb_z)c_z-(a_xb_y-a_yb_x)c_y]\vec{i} \\
+&i=a_zb_xc_z-a_xb_zc_z-a_xb_yc_y+a_yb_xc_y \\
+&\text{If we add and subtract $a_xb_xc_x$ from the i component we get: } \\
+&i=a_zb_xc_z-a_xb_zc_z-a_xb_yc_y+a_yb_xc_y+a_xb_xc_x-a_xb_xc_x \\ 
+&\text{Collect like terms:} \\
+&i=b_x(a_xc_x+a_zc_z+a_yc_y)-a_x(b_xc_x+b_yb_z+b_zc_z)\\
+&\text{Note: $a_xc_x+a_zc_z+a_yc_y=a \cdot c$} \\
+&\text{This means i component of $\left( \vec{a} \times \vec{b} \right) \times \vec {c}$ is }: \\
+&i=(a \cdot c)b_x-(b \cdot c)a_x \\
+&\text{Following the same method for j and k component we get :} \\
+ \left( \vec{a} \times \vec{b} \right) \times \vec {c} &=[(a \cdot c)b_x-(b \cdot c)a_x] \vec{i}+[(a \cdot c)b_y-(b \cdot c)a_y]\vec{j}+[(a \cdot c)b_z-(b \cdot c)a_z]\vec{k} \\
+&\text{Therefore: } \\ 
+ &= (\vec{a} \cdot \vec{c})\vec{b}-(\vec{b} \cdot \vec{c})\vec{a}
+\end{align*}
 
+\pagebreak 
+
+We go on with  with $(\vec{a} \times \vec{b}) \times \vec{c}$ :
+\begin{align*}
+\vec{b} \times \vec{c}&=(b_yc_z-b_zc_y)i-(b_xc_z-b_zc_x)j+(b_xc_y-b_yc_x)k \\
+&=(b_yc_z-b_zc_y)i+(b_zc_x-b_xc_z)j+(b_xc_y-b_yc_x)k
+\end{align*}
+So:
+\begin{align*} \vec{a} \times \left( \vec{b} \times \vec {c} \right) &=
+\begin{vmatrix}
+  \vec{i} & \vec{j}& \vec{k}\\
+  a_x & a_y & a_z \\
+  b_yc_z-b_zc_y & b_zc_x-b_xc_z & b_xc_y-b_yc_x \\
+\end{vmatrix} \\
+&=[a_y(b_xc_y-b_yc_x)-a_z(b_zc_x-b_xc_z)]\vec{i} \\
+&-[a_x(b_xc_y-b_yc_x)-a_z(b_yc_z-b_zc_y)]\vec{j} \\ 
+&+ [a_x(b_zc_x-b_xc_z)-a_y(b_yc_z-b_zc_y)]\vec{j} \\ 
+&\text{Break this seemingly long vector down to i, j and k components} \\
+&\text{We only look at the i component:} \\
+i&=[a_y(b_xc_y-b_yc_x)-a_z(b_zc_x-b_xc_z)]\vec{i}\\
+&=a_yb_xc_y-a_yb_yc_x-a_zb_zc_x+a_zb_xc_z \\
+&\text{If we add and subtract $a_xb_xc_x$ from the i component we get: } \\
+&=a_yb_xc_y-a_yb_yc_x-a_zb_zc_x+a_zb_xc_z+a_xb_xc_x-a_xb_xc_x \\
+&\text{Collect like terms:} \\
+&=b_x(a_xc_x+a_yc_y+a_zc_z)-c_x(a_xb_x+a_yb_z+a_zb_z) \\
+&\text{Note: $a_xc_x+a_zc_z+a_yc_y=a \cdot c$} \\
+&\text{This means i component of $ \vec{a} \times \left( \vec{b}  \times \vec {c} \right) $ is }: \\
+&i=(a \cdot c)b_x-(a \cdot b)c_x \\
+&\text{Following the same method for j and k component we get :} \\
+  \vec{a} \times \left( \vec{b}  \times \vec {c} \right) &=[(a \cdot c)b_x-(a \cdot b)c_x] \vec{i}+[(a \cdot c)b_y-(a \cdot b)c_y]\vec{j}+[(a \cdot c)b_z-(a \cdot b)c_z]\vec{k}
+\end{align*}
+Hence:
+\begin{displaymath}
+  \vec{a} \times \left( \vec{b}  \times \vec {c} \right)  =(a \cdot c)b-(a \cdot b)c
+\end{displaymath}
+and
+\begin{displaymath}
+  \left( \vec{a} \times \vec{b} \right) \times \vec {c} =(a \cdot c)b-(b \cdot c)a
+\end{displaymath}
+\begin{itemize}
+\item For \textbf{most} cases $(a \cdot c)b-(a \cdot b)c \neq (a \cdot c)b-(b \cdot c)a$ 
+\item Hence: $\left( \vec{a} \times \vec{b} \right) \times \vec {c}$ \textbf{does not always equal to} $\vec{a} \times \left( \vec{b}  \times \vec {c} \right)$
+\item \textbf{Note:} Add and subtract $a_yb_yc_y$ or $a_zb_zc_z$ instead of $a_xb_xc_x$ when doing j and k component.
+\end{itemize}
+\pagebreak
+\subsection{Example}
+We will show an example:
 \begin{equation}
 \tilde{a}=2i+3j+6k \\
 \end{equation}
@@ -76,8 +143,23 @@ We start with LHS: \\
 \begin{equation}
 \tilde{c}=4i+2j+k \\
 \end{equation}
+So:
+\begin{displaymath}
+  \vec{a} \times \left( \vec{b}  \times \vec {c} \right)  =(a \cdot c)b-(a \cdot b)c
+\end{displaymath}
+\begin{displaymath}
+  \left( \vec{a} \times \vec{b} \right) \times \vec {c} =(a \cdot c)b-(b \cdot c)a
+\end{displaymath}
 
-
+\begin{align*}
+  \vec{a} \times \left( \vec{b}  \times \vec {c} \right)  &=(8+6+6)(3i+5j+7k)-(6+15+42)(4i+2j+k) \\
+&= 60i+100j+140k-252i-126j-63k \\
+&=-192i-26j+77k \\
+ \left( \vec{a} \times \vec{b} \right) \times \vec {c} &= (8+6+6)(3i+5j+7k)-(12+10+7)(2i+3j+6k)\\
+&= 60i+100j+140k-58i-87j-174k \\
+&=2i+13j-34k
+\end{align*} \\
+\textbf{Conclusion:} For this case $\left( \vec{a} \times \vec{b} \right) \times \vec {c}$ \textbf{does not equal to} $\vec{a} \times \left( \vec{b}  \times \vec {c} \right)$
 \pagebreak
 \section{Question 3}
 In question 3 we treat the satelite as a point mass.
@@ -129,7 +211,7 @@ Therefore:
 One simply(which is an understatement in its own right) has to remove $6.24 \times 10^{18}$ electrons to give a blade of grass 1 Coulomb of charge. 
 
 \pagebreak
-\section{Question 8}
+\section{Question 6}
 \pagebreak
 \section{Question 7}
 Each $Na^+$ and $Cl^{-}$ ion has either positive charge or negative charge of 1, meaning they both have
@@ -151,6 +233,7 @@ We are given the function which describes the strength of magnetic field along t
 \begin{displaymath}
 E(z)=\frac{Q}{4 \pi \varepsilon_0}\frac{z}{(z^2+R^2)^{\frac{3}{2}}}
 \end{displaymath}
+\begin{itemize}
 \item We are told to derive the formulae for the z-coordinate where the electrical field is at a maximum.
 \item The term ``maximum'' means differentiation is our friend here:
 \setcounter{equation}{0}

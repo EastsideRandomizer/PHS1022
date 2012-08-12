@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.8.9)  12 AUG 2012 02:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.8.9)  12 AUG 2012 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\input assignment1_.tex
 (./assignment1_.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -107,7 +107,7 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
@@ -127,119 +127,118 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
-
+Overfull \hbox (12.38942pt too wide) in paragraph at lines 88--88
+[] 
  []
 
 [2]
-Overfull \hbox (5.12228pt too wide) in paragraph at lines 85--86
-\OT1/cmr/m/n/12 There is no net torque on the satelite be-cause the only force(
-gravitational
+Overfull \hbox (12.38942pt too wide) in paragraph at lines 120--120
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-[3] [4] [5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+[5] [6] [7] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
-[9] (./assignment1_.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+ []
+
+[11] (./assignment1_.aux) ) 
 Here is how much of TeX's memory you used:
- 847 strings out of 495060
- 9525 string characters out of 3182054
- 63257 words of memory out of 3000000
- 4085 multiletter control sequences out of 15000+200000
- 8568 words of font info for 31 fonts, out of 3000000 for 9000
+ 829 strings out of 495060
+ 9340 string characters out of 3182054
+ 67232 words of memory out of 3000000
+ 4075 multiletter control sequences out of 15000+200000
+ 5612 words of font info for 21 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,12n,20p,256b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,15n,20p,256b,206s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on assignment1_.dvi (9 pages, 15876 bytes).
+Output written on assignment1_.dvi (11 pages, 25916 bytes).
