@@ -1,0 +1,8 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\begin{document}
+\begin{align*}
+&=\int_{R}^{\inf} F_{Elec}dr
+&=\int_{R}^{\inf} \frac{kq_1q_2}{r}
+\delta U_{electric}&=*\frac{kQ_1Q_2}{R}
+\end{align*}

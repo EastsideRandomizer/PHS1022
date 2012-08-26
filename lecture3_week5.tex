@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{tikz}
+\begin{document}
+
+\title{Change in Voltage}
+\date{17 August, 2012}
+\author{Gordon Ng}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Limit of Classical Physics}
+Let's say:
+\begin{align}
+E= \frac{\varepsilon_O A}{d}
+\end{align}
+if $d \gg 10^{-10} \angstrom$ the Classical law holds. But anywhere close than that we must use relativistic mechanics. 
+
+\section{Relativistic mechanics} 
+Relativistic mechanics encloses newtonian mechanics.
+\subsection{Examples}
+\begin{align}
+E^2=(pc)^2+(mc^2)^2
+\end{align}
+If:
+\begin{align}
+p &= 0, E=mc^2 \\
+m &= 0, E=pc=\frac{hc}{\lambda}=hf \\
+V \ll c &= mv \ll mc = pc \ll mc^2 \\
+\text{Hence:} \\
+E&=\sqrt{p^2c^2+m^2c^4}=mc^2+\frac{p^2}{2m}
+\end{align}
+\subsection{Two Lines of infinite charge}
+\begin{align}
+|E|=\frac{\eta}{\varepsilon_O}
+\end{align}
+If E is very large Relativistic effects will allow a electron-positron pairs to be produced. Then is causes polarisation in the electric field, acting like a dielectric material.
+
+\subsubsection{Dielectric Constant when E is very large}
+\begin{align}
+K&=\frac{E_O}{E}=\frac{E_0}{E_o-E_{induced}} \\
+K_{vac}&=\frac{E_0}{E_O-N\frac{\frac{1}{2}\varepsilon_OE_0^2}{2mec^2}} \\
+K_{vac}&=\frac{1}{1-N\frac{\frac{1}{2}\varepsilon_OE_0}{4mec^2}}
+\end{align}
+$K \to \infty$  as $E_O \to \infty$
+
+\section{Point Charge}
+Classical model of Force between two charges:
+\begin{align}
+F=\frac{KQ_1Q_2}{R^2}
+\end{align}
+As $R \to 0$, F does not tend to $\infty$ due to dressed electron effect. \\
+Hence Compton Effect comes into play:
+\begin{align}
+\end{align}
+\section{Link Between Physics}
+  \def\firstcircle{(90:1.75cm) circle (2.5cm)}
+  \def\secondcircle{(210:1.75cm) circle (2.5cm)}
+  \def\thirdcircle{(330:1.75cm) circle (2.5cm)}
+    \begin{tikzpicture}
+      \begin{scope}
+    \clip \secondcircle;
+    \fill[cyan] \thirdcircle;
+      \end{scope}
+      \begin{scope}
+    \clip \firstcircle;
+    \fill[cyan] \thirdcircle;
+      \end{scope}
+      \draw \firstcircle node[text=black,above] {Electro Magnetism };
+      \draw \secondcircle node [text=black,below left] {Rotational Mechanics};
+      \draw \thirdcircle node [text=black,below right] {Quantam mechanics };
+    \end{tikzpicture}
+\end{document}

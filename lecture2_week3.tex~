@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{Symmetry, Electric Flux and Gauss' Law}
+\date{7 August, 2012}
+\author{Gordon Ng}
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\begin{itemize}
+\section{Introduction to Symmetry}
+\item It is fundamental to our daily lives.
+\item An opreation under which a given object is unchanged.
+\subsection{Example}
+\item Rotating a circle about it's centre. It is also known as continous symmetry.
+\item Reflecting a triangle. It is known as \textbf{discrete symmetry}. 
+\section{Symmetry of Charge Distribution}
+\item The symmetry of the electric field must match the symmetry of the charge distribution.
+\item Symmetry in translation
+\item If a infinitely long line is rotated at it's own axis it is unchanged.
+\item Symmetry in rotation.
+\item In \textbf{Cylindrical symmetry}, the charge must point away or towards the axis.
+\item In \textbf{planar symmetry}, it has reflection , slide  and rotation symmetry, therefore the electrical field is perpendicular to the plane.
+\item For a \textbf{Sphere}, if the sphere is displaced it is not the same sphere anymore.
+\pagebreak
+\section{Electric Flux}
+\item Flux measures the amount of electric field passing through a surface of an area A when it is titled at angle $\theta$ from the field.
+\begin{displaymath}
+  \Phi_e = E_{\bot}A=EAcos \theta = \vec{E} \cdot  \vec{A}
+\end{displaymath}
+\subsection{Surface Intergrals}
+\begin{displaymath}
+\Phi_e= \sum  \vec{E} \cdot \delta  \vec{A} \longrightarrow \int \vec{E} \cdot d \vec{A}
+\end{displaymath}
+\item \textbf{Note:} If the electric field is everywhere \textbf{tangent} to the surface then $\phi_e =0$
+\item \textbf{Note:} If the electric is \textbf{perpendicular} everywhere to the surface then $\phi_e=EA$
+\subsection{closed surface}
+\item A closed surface has a distinct inside and outside. By definition the vector dA points towards outside.
+\begin{displaymath}
+\Phi_e= \sum  \vec{E} \cdot \delta  \vec{A} \longrightarrow  \vec{E} \cdot d \vec{A}
+\end{displaymath}
+\item Flux flowing through the same circular area has same flux.
+\end{itemize}
+\pagebreak
+\section{Gauss's Law}
+\item no enclosed charges = no net electric flux
+\begin{displaymath}
+\phi_e= \int \vec{E} \cdot d \vec{A} = \frac{Q_{in}}{\varepsilon_0}
+\end{displaymath}
+\end{document}

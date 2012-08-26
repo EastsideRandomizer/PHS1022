@@ -1,0 +1,17 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\begin{document}
+
+\title{Electric Flux and Gauss' Law - Continued}
+\date{17 August, 2012}
+\author{Gordon Ng}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Change in Voltage}
+\begin{align}
+\Delta V = \int_i^f \vec{E}\cdot{d\vec{r}}
+\end{align}
+It is the area under the E-x graph.
+\end{document}
