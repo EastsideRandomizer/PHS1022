@@ -1,0 +1,182 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{tikz}
+\numberwithin{equation}{section} 
+\begin{document}
+\title{Change in Voltage}
+\date{17 August, 2012}
+\author{Gordon Ng}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Introduction to Magnetism}
+\begin{itemize}
+\item The Magnetic field is similar to a electric dipole field.
+\end{itemize}
+
+\section{Notation}
+\begin{itemize}
+\item Into the page : $\times$
+\item Out of the page : $\bullet$
+\end{itemize}
+\section{Field Strength}
+\begin{align}
+B\propto \frac{1}{r^2}
+\end{align}
+\section{Biot-Savart Law}
+\begin{align}
+B_{PC}=\frac{\mu_o}{4 \pi} \frac{qv sin \theta}{r^2}
+\end{align}
+Where
+\begin{align*}
+\mu_0 &= 4 \pi \times 10^{-7} TmA \\
+q &= \text{Charge (C)} \\
+v &= \text{Velocity of Charge} \\
+\theta &= \text{Angle between velocity vector and position vector} 
+\end{align*}
+
+\subsection{Magnetic Field For A Long Current Carrying wire}
+\begin{align}
+B_{PC}=\frac{\mu_o}{2 \pi}\frac{I}{d}
+\end{align}
+
+\subsection{Magnetic Field along a current loop axis}
+\begin{align}
+B_{PC}=\frac{\mu_o}{2}\frac{IR^2}{(z^2+R^2)^{\frac{3}{2}}}
+\end{align}
+\subsubsection{If z= 0}
+\begin{align}
+B_{PC}&=\frac{\mu_o}{2}\frac{I}{R^{\frac{3}{2}}} \\
+\intertext{If There is N Rings:}
+B_{PC}&=\frac{\mu_o}{2}\frac{NIR^2}{(z^2+R^2)^{\frac{3}{2}}}
+\end{align}
+\section{Symmetry And Ampere's Law}
+They symmetry between Gauss's Law and 
+\\
+Gauss's law:
+\begin{align}
+\Phi_{e} *= \oint E dA = \frac{Q_{in}}{\varepsilon_)}\\
+\intertext{Line Integral}
+\oint T ds &= n_1 ds_1 + n_2 ds_{1} \\
+\intertext{Ampere's Law}
+\intertext{When Magnetic Field is perpendicular to the Line}
+\vec{B} \cdot d \vec{s}&=0 \\
+\intertext{When the Magnetic Field is parallel to the Line}
+\oint \vec{B} \cdot d \vec{s}&= Bl = B(2 \pi d)
+\intertext{If we combine it with Biot-Savart Law:}
+\oint \vec{B} \cdot d \vec{s}&= \mu_0 I
+\end{align}
+\subsection{Ampere's Law Inside a Wire}
+In here we assume constant current denssity.
+\begin{align}
+  \intertext{Ratio of Area:}
+  \frac{\pi r^2}{\pi R^2} &= \frac{r^2}{R^2} \\
+  \intertext{Hence:}
+  \oint \vec{B} \cdot d \vec{s}&= \frac{\mu_0 r^2 I}{R^2} \\
+  \intertext{Replace Line Integral}
+  2 \pi r B &= \frac{\mu_0 r^2 I}{R^2}\\
+  \intertext{Rearrangement results in:}
+  B&= \frac{\mu_0 I}{2pi R^2} r
+\end{align}
+\section{Solenoid}
+The Solenoid should have a diameter which is fair smaller than the length of the coil.
+They have such properties:
+\begin{itemize}
+\item The magnetic field inside a solenoid is uniform.
+\item Infinitely Long
+\end{itemize}
+\subsection{Ampere's Law}
+\begin{align}
+  \intertext{From Biot-Savart Law:}
+  \frac{\pi r^2}{\pi R^2} &= \frac{r^2}{R^2} \\
+\oint \vec{B} \cdot d \vec{s}&= \mu_0 I
+\end{align}
+\subsection{Ampere's Law Inside a Wire}
+In here we assume constant current denssity.
+\begin{align}
+  \intertext{Ratio of Area:}
+  \frac{\pi r^2}{\pi R^2} &= \frac{r^2}{R^2} \\
+  \intertext{Hence:}
+  \oint \vec{B} \cdot d \vec{s}&= \frac{\mu_0 r^2 I}{R^2} \\
+  \intertext{Replace Line Integral}
+  2 \pi r B &= \frac{\mu_0 r^2 I}{R^2}\\
+  \intertext{Rearrangement results in:}
+  B&= \frac{\mu_0 I}{2pi R^2} r
+\end{align}
+\section{Solenoid}
+The Solenoid should have a diameter which is fair smaller than the length of the coil.
+They have such properties:
+\begin{itemize}
+\item The magnetic field inside a solenoid is uniform.
+\item Infinitely Long
+\end{itemize}
+\pagebreak
+\subsection{Ampere's Law}
+\begin{align}
+  \intertext{From Biot-Savart Law:}
+ \oint \vec{B} \cdot d \vec{s}&= \mu_0 I\\
+\intertext{Replace with line Integral:}
+Bl&=\mu_0 N I\\
+\intertext{Hence:}
+B&= \frac{\mu_0 N I}{l} = mu_0 n I
+\end{align}
+n is the number of turns per unit length
+ 
+\subsection{Doughnut Shape}
+\begin{equation}
+B= \frac{\mu_0 N I}{2 \pi r }
+\end{equation}
+
+\section{Frequency of a Cyclotron}
+\begin{align}
+f = \frac{qB}{a\pi m}
+\end{align}
+
+\section{Hall Effect}
+\begin{align}
+\Delta V_H = \frac{IB}{tne}
+\end{align}
+n= charge density.
+e= charge of an Electron.
+
+\section{Force on Wire Due To Magnetic Field}
+\begin{align*}
+F=BIL
+\frac{\mu_o I_1 I_2}{2\pi d} 
+\end{align*}
+
+\section{Magnetic Moment}
+\begin{align}
+IA = Il2 = \mu
+\end{align}
+\section{Torque due to Magnetic Field}
+\begin{align}
+\vec{\tau} \times \vec{B} = \mu B sin \theta
+\end{align}
+
+\section{Electromagnetic Induction}
+
+\section{Eddy Currents}
+An current loop with a hole present acts like a capacitor with charges on either end of the hole. There IS Indeed an EMF even though no current will flow. 
+ 
+\section{Faraday's Law}
+\begin{equation}
+\varepsilon=\left|\frac{d\Phi_{b}}{dt}\right|=\left|\vec{B} \cdot \frac{d\vec{A}}{dt}+\vec{A} \cdot \frac{d\vec{B}}{dt} \right|
+\end{equation}
+The direction of current is defined by Lenz's Law.
+\section{Induced Electric Field}
+If we divide the equation above into two parts. We can see that we have induced Electric-field which is non-Couloumbic. \\
+This is generated by a \textbf{changing} magnetic field. Such force will still exert the force $F=qe$ on an charge. (Same as Coulombic Electric Field)
+
+We know that :
+\begin{align}
+W=q \oint\vec{E}\cdot d \vec{s} \\
+\intertext{Hence we can write that:}
+\varepsilon= \oint \vec{E}\cdot d \vec{s} \\
+\intertext{We can also conclude that:}
+\oint \vec{E}\cdot d \vec{s} = A \left|\frac{d\vec{B}}{dt} \right| \\
+\end{align}
+
+If we have the pendulum we will have a Lorentz current which causes a Force.
+\end{document}
