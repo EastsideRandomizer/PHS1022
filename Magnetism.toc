@@ -1,24 +1,33 @@
-\contentsline {section}{\numberline {1}Introduction to Magnetism}{3}
-\contentsline {section}{\numberline {2}Notation}{3}
-\contentsline {section}{\numberline {3}Field Strength}{3}
-\contentsline {section}{\numberline {4}Biot-Savart Law}{3}
-\contentsline {subsection}{\numberline {4.1}Magnetic Field For A Long Current Carrying wire}{3}
-\contentsline {subsection}{\numberline {4.2}Magnetic Field along a current loop axis}{3}
-\contentsline {subsubsection}{\numberline {4.2.1}If z= 0}{4}
-\contentsline {section}{\numberline {5}Symmetry And Ampere's Law}{4}
-\contentsline {subsection}{\numberline {5.1}Ampere's Law Inside a Wire}{5}
-\contentsline {section}{\numberline {6}Solenoid}{5}
-\contentsline {subsection}{\numberline {6.1}Ampere's Law}{5}
-\contentsline {subsection}{\numberline {6.2}Ampere's Law Inside a Wire}{6}
-\contentsline {section}{\numberline {7}Solenoid}{6}
-\contentsline {subsection}{\numberline {7.1}Ampere's Law}{7}
-\contentsline {subsection}{\numberline {7.2}Doughnut Shape}{7}
-\contentsline {section}{\numberline {8}Frequency of a Cyclotron}{7}
-\contentsline {section}{\numberline {9}Hall Effect}{7}
-\contentsline {section}{\numberline {10}Force on Wire Due To Magnetic Field}{7}
-\contentsline {section}{\numberline {11}Magnetic Moment}{8}
-\contentsline {section}{\numberline {12}Torque due to Magnetic Field}{8}
-\contentsline {section}{\numberline {13}Electromagnetic Induction}{8}
-\contentsline {section}{\numberline {14}Eddy Currents}{8}
-\contentsline {section}{\numberline {15}Faraday's Law}{8}
-\contentsline {section}{\numberline {16}Induced Electric Field}{8}
+\contentsline {section}{\numberline {1}Introduction to Magnetism}{4}
+\contentsline {section}{\numberline {2}Notation}{4}
+\contentsline {section}{\numberline {3}Field Strength}{4}
+\contentsline {section}{\numberline {4}Biot-Savart Law}{4}
+\contentsline {subsection}{\numberline {4.1}Magnetic Field For A Long Current Carrying wire}{4}
+\contentsline {subsection}{\numberline {4.2}Magnetic Field along a current loop axis}{4}
+\contentsline {subsubsection}{\numberline {4.2.1}If z= 0}{5}
+\contentsline {section}{\numberline {5}Symmetry And Ampere's Law}{5}
+\contentsline {subsection}{\numberline {5.1}Ampere's Law Inside a Wire}{6}
+\contentsline {section}{\numberline {6}Solenoid}{6}
+\contentsline {subsection}{\numberline {6.1}Ampere's Law}{6}
+\contentsline {subsection}{\numberline {6.2}Ampere's Law Inside a Wire}{7}
+\contentsline {section}{\numberline {7}Solenoid}{7}
+\contentsline {subsection}{\numberline {7.1}Ampere's Law}{8}
+\contentsline {subsection}{\numberline {7.2}Doughnut Shape}{8}
+\contentsline {section}{\numberline {8}Frequency of a Cyclotron}{8}
+\contentsline {section}{\numberline {9}Hall Effect}{8}
+\contentsline {section}{\numberline {10}Force on Wire Due To Magnetic Field}{8}
+\contentsline {section}{\numberline {11}Magnetic Moment}{9}
+\contentsline {section}{\numberline {12}Torque due to Magnetic Field}{9}
+\contentsline {section}{\numberline {13}Electromagnetic Induction}{9}
+\contentsline {section}{\numberline {14}Eddy Currents}{9}
+\contentsline {section}{\numberline {15}Faraday's Law}{9}
+\contentsline {section}{\numberline {16}Induced Electric Field}{9}
+\contentsline {section}{\numberline {17}Modified Faraday's Law}{10}
+\contentsline {section}{\numberline {18}Application of Faraday's Law}{10}
+\contentsline {subsection}{\numberline {18.1}AC generator}{10}
+\contentsline {subsubsection}{\numberline {18.1.1}EMF}{10}
+\contentsline {subsection}{\numberline {18.2}Transformer}{11}
+\contentsline {subsection}{\numberline {18.3}Metal Detector}{11}
+\contentsline {subsection}{\numberline {18.4}Inductor}{11}
+\contentsline {subsection}{\numberline {18.5}Maxwell's Equations}{12}
+\contentsline {section}{\numberline {19}Electromagnetic Waves}{12}

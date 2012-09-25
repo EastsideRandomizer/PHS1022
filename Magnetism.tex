@@ -179,4 +179,62 @@ W=q \oint\vec{E}\cdot d \vec{s} \\
 \end{align}
 
 If we have the pendulum we will have a Lorentz current which causes a Force.
+
+\section{Modified Faraday's Law}
+\begin{align}
+\oint \vec{E}\cdot d \vec{s} =  - \frac{d\vec{\Phi_B}}{dt}
+\end{align}
+Where $ds = 2 \pi r$ if the line is a circle.
+
+\section{Application of Faraday's Law}
+\subsection{AC generator}
+\subsubsection{EMF}
+\begin{align}
+\varepsilon =  - N \frac{d\vec{\Phi_B}}{dt} =  - N \frac{d\vec{BA cos (\omega t)}}{dt} = NBA sin (\omega t)
+\end{align}
+\pagebreak
+\subsection{Transformer}
+It does not work with DC (DC current only causes a constant Magnetic Field.
+\begin{align}
+\intertext{Ratio:}
+\frac{V_1}{V_2}={N_1}{N_2} \\
+\intertext{Current (Energy must be conserved):}
+V_1I_1=V_2I_2\\
+\frac{V_1}{V_2}=\frac{I_2}{I_1}\\
+\frac{N_1}{N_2}=\frac{I_2}{I_1}
+\end{align}
+
+\subsection{Metal Detector}
+The Transmitter coil causes a current in the receiver coil, but the metal can reduce the current in the receiver coil due to eddy currents.
+
+\subsection{Inductor}
+\begin{align}
+\intertext{EMF:}
+V=-L\frac{dI}{dt}\\
+\intertext{Inductance}
+L=\frac{\mu_0 N^2 A}{l}
+\end{align}
+The negative signs indicates that it opposes the change in current.
+
+\subsection{Maxwell's Equations}
+\begin{align}
+\intertext{Gauss's Law for Magnetism}
+\oint \vec{B} \cdot d \vec{A} =0  \\
+\intertext{Ampere-Maxwell's Law}
+\oint \vec{B} \cdot d\vec{s} = \mu_0 I_{through} + \epsilon_0 \mu_o \frac{d \Phi_e}{dt} \\ 
+\intertext{Lorentz's Force Law}
+F= q \vec{E} + q \vec{v} \times \vec{B} 
+\end{align}
+
+\section{Electromagnetic Waves}
+An oscillating charge will create a changing magnetic and electric field which generates an EM Wave.
+\begin{align}
+\intertext{Poynting vector:}
+|\vec{S}|=\frac{1}{\mu_0}\vec{E}\times\vec{B}=\frac{EB}{\mu_0}
+\end{align}
+Hence
+\begin{align}
+\frac{1}{2}\varepsilon_0 E^2 = \frac{1}{2 \mu_0} B^2
+\end{align}
+
 \end{document}

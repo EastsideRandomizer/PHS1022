@@ -1,0 +1,17 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{tikz}
+\numberwithin{equation}{section} 
+\begin{document}
+\title{Quantum Physics}
+\date{17 August, 2012}
+\author{Gordon Ng}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Classical vs Quantum Physics}
+It describes a deterministic world where we can use initial conditions to make predictions about a Classical system.
+Chaos comes from 
+
+In principle, Quantum does not have a initial condition. It describes probabilistic world where the results of all measurements cannot be precisely defined.
